@@ -11,6 +11,7 @@ public class E4 {
             System.out.println("writed " + temp);
             System.out.println("sum " + sum);
         }
+        scan.close();
         float nota = (sum / 4);
         System.out.println("Nota final : " + nota);
     }

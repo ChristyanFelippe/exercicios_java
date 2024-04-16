@@ -7,6 +7,7 @@ public class E3 {
         int numeroDigitado1 = scan.nextInt();
         System.out.print("Digite o segundo numero : ");
         int numeroDigitado2 = scan.nextInt();
+        scan.close();
         int resultado = numeroDigitado1 + numeroDigitado2;
         System.out.println("Resultado : " + resultado);
     }
