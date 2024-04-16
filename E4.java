@@ -5,11 +5,11 @@ public class E4 {
         float sum = 0;
         Scanner scan = new Scanner(System.in);
         for (int i = 1; i <= 4; i++) {
-            System.out.print("Digite a nota " + i +" (valor entre 0 a 10): ");
+            System.out.print("Digite a nota " + i + " (valor entre 0 a 10): ");
             float temp = scan.nextInt();
             sum += temp;
-            System.out.println("writed " + temp);
-            System.out.println("sum " + sum);
+            // System.out.println("writed " + temp);
+            // System.out.println("sum " + sum);
         }
         scan.close();
         float nota = (sum / 4);
