@@ -8,7 +8,7 @@ public class E6 {
         double value = scan.nextInt();
         double resultado = (value * value * pi);
         scan.close();
-        System.out.println("\nO valor da área é " + resultado );
+        System.out.println("\nO valor de " + value + " metro(s) equivale a " + resultado + " centimetros.");
     }
     
 }
